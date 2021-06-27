@@ -1,0 +1,274 @@
+/* default css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.fixedWidth {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* MAIN CSS */
+
+.headerMenu {
+    padding: 20px 0;
+    background-color: #22c3a3;
+}
+
+.headerLeft {
+    float: left;
+    width: 20%;
+}
+
+.logo {}
+
+.logo h1 {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.navbar1 {
+    display: none;
+    font-size: 30px;
+    color: aqua;
+}
+
+.navbar2 {
+    display: none;
+    font-size: 30px;
+    color: aqua;
+}
+
+.headerRight {
+    float: right;
+    width: 77%;
+}
+
+.menu {}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* BANNERsECTION */
+
+.bannerSection {
+    background-image: url("https://i.ibb.co/tM1MtDy/178134199-505905787442083-5975638775884129539-n-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 170px 0;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner h1 {
+    text-align: center;
+    color: white;
+    font-size: 54px;
+}
+
+.banner p {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 26px;
+    color: white;
+}
+
+.banner a {
+    padding: 11px 12px;
+    border: none;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* SERVICESsECTION  */
+
+.serviceTaitel {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.serviceTaitel h1 {
+    padding: 40px 0;
+    font-size: 34px;
+    color: #483f33;
+}
+
+.serviceTaitel p {
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+.servicesBox {
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+    margin: 70px 0;
+}
+
+.servicesBox span {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    color: #00bd97;
+}
+
+.servicesBox h2 {
+    color: #5f6060;
+    padding: 20px 0;
+}
+
+.servicesBox p {
+    color: #abaaab;
+    font-size: 16px;
+}
+
+/* aboutsSection */
+
+.aboutTaitel {
+    margin-bottom: 60px;
+}
+
+.aboutsSection {
+    /* padding:60px 60px; */
+    margin-top: 60px;
+    border-top: 1px solid #00bd97;
+}
+
+.aboutsSection h1 {
+    font-size: 40px;
+    color: #404446;
+    padding: 30px 0;
+}
+
+.aboutsSection p {
+    color: #a5a4a4;
+    margin-bottom: 10px;
+}
+
+.aboutsLeft {
+    float: left;
+    width: 35%;
+}
+
+.aboutsRight {
+    float: right;
+    width: 60%;
+}
+
+.aboutsRight h2 {
+    margin-bottom: 10px;
+    color: #404446;
+}
+
+/* CONTACTSECTION */
+
+.contactSection {
+    background-color: #f6f6f6;
+}
+
+.contactTaitle {
+    margin-top: 50px;
+}
+
+.contactTaitle h1 {
+    margin-bottom: 15px;
+    color: #4d4f4d;
+    padding-top: 50px;
+}
+
+.contactTaitle p {
+    font-size: 17px;
+    color: #4d4f4d;
+}
+
+.contactBox {
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 36px;
+}
+
+.contactBox p {
+    color: #4d4f4d;
+}
+
+.contactBox span {
+    padding: 10px 0;
+    display: inline-block;
+    color: #4d4f4d;
+}
+
+.contactBox i {
+    color: #00bc95;
+}
+
+/* FOOTERsECTION */
+
+.footerSection {
+    background-color: #00bc95;
+}
+
+.footerSection ul {}
+
+.footerSection ul li {
+    display: inline-block;
+    padding: 20px 12px;
+    color: white;
+}
+
+.subFooter {
+    background-color: #222222;
+    color: #4c4c4d;
+    padding: 10px;
+}

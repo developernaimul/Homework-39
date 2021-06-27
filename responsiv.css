@@ -1,0 +1,373 @@
+@media (max-width:1400px) {
+    .bannerSection {
+        padding: 143px 0;
+    }
+}
+
+@media (max-width:1200px) {
+    .fixedWidth {
+        width: 1200px;
+    }
+    .headerLeft {
+        float: left;
+        width: 30%;
+    }
+    .logo {
+        margin-left: 100px;
+    }
+    .headerRight {
+        width: 69%;
+    }
+    .menu {
+        margin-right: 100px;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 10px 13px;
+    }
+}
+
+@media (max-width:1100px) {
+    .fixedWidth {
+        width: 1100px;
+    }
+}
+
+@media (max-width:1000px) {
+    .fixedWidth {
+        width: 1000px;
+    }
+    .logo {
+        margin-left: 63px;
+    }
+    .menu {
+        margin-right: 60px;
+    }
+}
+
+@media (max-width:900px) {
+    .menu {
+        margin-right: 134px;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 10px 7px;
+    }
+    .headerLeft {
+        float: left;
+        width: 27%;
+    }
+    .fixedWidth {
+        width: 900px;
+    }
+    .menu {
+        margin-right: 40px;
+    }
+    .logo {
+        margin-left: 28px;
+    }
+}
+
+@media (max-width:870px) {
+    .fixedWidth {
+        width: 800px;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 10px 3px;
+    }
+    .menu {
+        margin-right: 40px;
+    }
+    .logo h1 {
+        font-size: 26px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: bolder;
+        color: aqua;
+    }
+    .logo {
+        margin-left: 68px;
+    }
+    .servicesBox {
+        width: 50%;
+        margin: 31px 0;
+    }
+    .servicesBox p {
+        color: #abaaab;
+        font-size: 20px;
+    }
+    .contactBox {
+        width: 27%;
+    }
+}
+
+@media (max-width:750px) {
+    .headerRight {
+        display: none;
+    }
+    .navbar1 {
+        display: block;
+    }
+    .navbar1 {
+        display: block;
+        float: right;
+        padding: 16px 59px;
+    }
+}
+
+@media (max-width:700px) {
+    .menu {
+        display: none;
+    }
+    .fixedWidth {
+        width: 700px;
+    }
+    .bannerSection {
+        padding: 90px 0;
+    }
+    .banner h1 {
+        text-align: center;
+        color: white;
+        font-size: 41px;
+    }
+    .banner p {
+        margin: 25px 0;
+        font-size: 23px;
+    }
+    .headerMenu {
+        padding: 5px 0;
+        background-color: #000;
+    }
+    .headerLeft {
+        float: left;
+        width: 40%;
+    }
+    .logo {
+        margin: 17px;
+    }
+    .servicesBox {
+        float: left;
+        width: 47%;
+        margin-right: 20px;
+        margin: 21px 0;
+        border: 1px solid #0dbf9b;
+        box-sizing: border-box;
+        margin-left: 10px;
+    }
+    .serviceTaitel {
+        margin: 10px 0;
+    }
+    .servicesBox span {
+        padding-top: 20px;
+    }
+    .servicesBox p {
+        color: #abaaab;
+        font-size: 16px;
+        padding-bottom: 23px;
+    }
+    .navbar1 {
+        position: absolute;
+        top: -4px;
+        right: 0;
+    }
+    .contactTaitle {
+        margin-top: 0px;
+    }
+    .contactBox {
+        float: left;
+        width: 26%;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .fixedWidth {
+        width: 600px;
+    }
+    .logo {
+        margin: 17px 27px;
+    }
+    .aboutsLeft {
+        padding: 0 20px;
+    }
+    .aboutsRight {
+        padding: 0 20px;
+    }
+    .contactBox {
+        float: left;
+        width: 40% !important;
+        margin-top: 50px;
+        margin-left: 34px;
+    }
+    .contactBox.wxx4 {
+        width: 100% !important;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media (max-width:517px) {
+    .contactBox {
+        margin-top: 17px;
+        margin-left: 0px;
+        width: 100% !important;
+    }
+    .contactBox.wxx4 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .fixedWidth {
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .fixedWidth {
+        width: 400px;
+    }
+}
+
+@media (max-width:350px) {
+    .fixedWidth {
+        width: 350px;
+    }
+    .headerLeft {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar1 {
+        padding-right: 171px;
+        margin-top: -11px;
+    }
+}
+
+@media (max-width: 375px) {
+    .fixedWidth {
+        width: 375px !important;
+    }
+    .navbar2 {
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 53px;
+    }
+    .navbar1 {
+        display: none;
+    }
+    .aboutsLeft {
+        float: left;
+        width: 100%;
+    }
+    .aboutsRight {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .contactBox {
+        float: left;
+        width: 100% !important;
+        margin-top: 50px;
+        margin-left: 36px;
+        margin: auto !important;
+    }
+}
+
+@media (max-width:360px) {
+    .fixedWidth {
+        width: 360px !important;
+    }
+    .aboutsRight {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .aboutsLeft {
+        float: left;
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .contactBox {
+        float: left;
+        width: 100%;
+        margin: auto;
+    }
+    .navbar1 {
+        margin-top: 31px;
+    }
+    .contactBox {
+        float: left;
+        width: 100% !important;
+        margin-top: 50px;
+        margin-left: 36px;
+        margin: auto !important;
+    }
+    .headerLeft {
+        width: 54%;
+    }
+}
+
+@media (max-width:768px) {
+    .fixedWidth {
+        width: 100%;
+        text-align: center;
+    }
+    .contactBox {
+        float: left;
+        width: 28%;
+        margin-top: 50px;
+        margin-left: 36px;
+    }
+    .menu {
+        margin-right: 22px;
+    }
+    .aboutsSection h1 {
+        font-size: 33px;
+        padding: 20px 0;
+    }
+    .aboutsSection {
+        padding: 60px 60px;
+        margin-top: 25px;
+    }
+    .aboutsLeft {
+        width: 100%;
+        padding: 0 60px;
+        box-sizing: border-box;
+    }
+    .aboutsRight {
+        width: 100%;
+        text-align: center;
+        padding: 0 60px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width:414px) {
+    .fixedWidth {
+        width: 414px;
+    }
+    .aboutsLeft {
+        float: left;
+        width: 100%;
+    }
+    .aboutsRight {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .contactBox {
+        float: left;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width:384px) {
+    .fixedWidth {
+        width: 384px;
+    }
+}
